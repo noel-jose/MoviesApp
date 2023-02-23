@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    &__logo1{
+        width: 70px;
+    }
+
+
+    &__logo2{
+        width: 30px;
+    }
+}
+
+.header--dark{
+    background-color: rgba(0,0,0,.8);
+}
