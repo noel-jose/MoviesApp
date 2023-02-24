@@ -6,7 +6,7 @@ import SearchBar from "./components/SearchBar";
 import LoadMore from "./components/LoadMore";
 
 function App() {
-  const API_URL = `http://www.omdbapi.com/?apikey=ecf1a212&`;
+  const API_URL = `https://www.omdbapi.com/?apikey=ecf1a212&`;
 
   const [movies, setMovies] = useState([]);
   const [searchText, setSearchText] = useState("batman");
