@@ -4,7 +4,7 @@ import "./MovieCard.scss";
 const MovieCard = ({ movie }) => {
   return (
     <div className="MovieCard">
-      <span className="MovieCard__type">{movie.Type}</span>
+      <span className="MovieCard__type">{movie.Type.toUpperCase()}</span>
       <img
         src={
           movie.Poster === "N/A"

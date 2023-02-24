@@ -1,0 +1,20 @@
+@use "./variables.scss";
+
+.LoadMore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 1rem;
+    button{
+        background: variables.$card-bg-color;
+        border:3px solid variables.$card-button-bg-color;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 6px;
+        transition: scale ease-in-out 0.3s;
+
+        &:hover{
+            scale: 1.02;
+        }
+    }
+}
