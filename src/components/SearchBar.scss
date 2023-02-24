@@ -1,0 +1,19 @@
+@use './variables.scss';
+
+.SearchBar{
+    display: flex;
+    justify-content: center;
+    padding-block: 1rem;
+
+    input[type=text]{
+        width: 280px;
+        height: 40px;
+        border-radius :5px;
+        border: 0px;
+        padding: 15px;
+        background: variables.$card-bg-color;
+        outline: none;
+        color: white;
+        font-family: 'Helvetica', FontAwesome, sans-serif;
+    }
+}
